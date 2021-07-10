@@ -1,0 +1,25 @@
+.root {
+  width: 30%;
+  height: fit-content;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 2vh;
+}
+.chip {
+  padding: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.85rem;
+  box-shadow: 1px 1px 3px 1px #c5c5c5;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.highlighted {
+  background-color: #4caf50;
+  color: #fff;
+}

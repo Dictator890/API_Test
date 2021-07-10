@@ -1,0 +1,38 @@
+.root {
+  width: 30%;
+  height: 5vh;
+
+  background-color: #f9f9f9;
+
+  border-radius: 10px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.icon {
+  width: 1.7rem;
+  margin-right: 1rem;
+}
+.searchInput {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  outline-width: 0;
+  background-color: inherit;
+  padding-right: 0.5rem;
+}
+::placeholder {
+  color: #e0e0e0;
+}
+.submitButton {
+  width: 25%;
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffff;
+  cursor: pointer;
+}
